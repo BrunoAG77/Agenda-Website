@@ -24,11 +24,11 @@ button{
 }
 
 .add{
-  background-color: green;
+  background-color: rebeccapurple;
 }
 
 .add:hover{
-  background-color:#00b300;
+  background-color: #944bdd;
 }
 
 .del{
@@ -45,6 +45,22 @@ button{
 
 .updown:hover{
   background-color:#3d3dff;
+}
+
+.done{
+  background-color: green;
+}
+
+.done:hover{
+  background-color: #328b32;
+}
+
+.top{
+  background-color: gold;
+}
+
+.top:hover{
+  background-color: #ffdd33;
 }
 
 input[type="text"]{
@@ -74,8 +90,17 @@ li{
   flex: 1;
 }
 
-.del, .updown{
+.add, .del, .updown, .done, .top{
   padding: 10px 10px;
   font-size: 1rem;
   margin-left: 10px;
+}
+
+.copyright{
+  color: white;
+}
+
+.checked{
+  text-decoration: line-through;
+  color: darkgray;
 }
